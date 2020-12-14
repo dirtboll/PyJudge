@@ -4,7 +4,8 @@ Offline gradder helper for SDA using Python 3. For online gradder, visit [alghij
 ## Installation
 Clone this repo.
 ```
-git clone https://github.com/dirtboll/PyJudge && cd PyJudge
+git clone https://github.com/dirtboll/PyJudge
+cd PyJudge
 ```
 Install requirements.
 ```
