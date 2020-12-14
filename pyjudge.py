@@ -104,7 +104,6 @@ def main():
     os.chdir(_TMP_DIR)
 
     tcs = [x.strip("in") for x in os.listdir(tc_dir) if "in" in x]
-    print(tcs)
     with ThreadPoolExecutor(max_workers=numthread) as executor:
         futures = [executor.submit(judge, class_name, i) for i in tcs]
         for future in as_completed(futures):
